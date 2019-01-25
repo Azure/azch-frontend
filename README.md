@@ -1,5 +1,23 @@
 
-# Contributing
+# Frontend
+
+[![Build Status](https://dev.azure.com/theazurechallenge/Kubernetes/_apis/build/status/Code/Azure.azch-frontend)](https://dev.azure.com/theazurechallenge/Kubernetes/_build/latest?definitionId=10)
+
+A containerised Express/NodeJS app that periodically queries the Order Capture API to retrieve the total number of orders.
+
+## Usage
+
+## Environment Variables
+
+The following environment variables need to be passed to the container:
+
+### Capture Order Service IP
+
+```
+ENV CAPTUREORDERSERVICEIP=<public IP/hostname of capture order service>
+```
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
